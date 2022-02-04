@@ -1,4 +1,7 @@
+html,
 body {
+  margin: 0 auto;
+  height: 100%;
   font-size: 1.1rem;
 }
 
@@ -7,14 +10,8 @@ body {
 }
 
 .nav {
-  display: grid;
-  align-items: center;
-  justify-items: center;
-  grid-template-columns: repeat(3, 1fr);
-}
-
-.nav ul {
-  grid-column-start: 2;
+  display: flex;
+  justify-content: center;
 }
 
 .nav li {
@@ -28,5 +25,10 @@ body {
 }
 
 .section li {
-  font-size: 14px;
+  font-size: 0.9rem;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
 }
